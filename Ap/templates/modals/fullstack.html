@@ -1,0 +1,29 @@
+{% extends 'modals/baseModal.html' %}
+
+
+<!--Modal Id-->
+{% block modal-id %} id="fullstackModal" {% endblock modal-id %}
+
+
+<!--Modal title-->
+{% block modal-title %} Fullstack opportunity {% endblock modal-title %} 
+
+<!--form Action-->
+{% block action %} action="/email_fullstack" {% endblock action %}
+
+<!--form validation-->
+
+{% block validation %} onSubmit = "return validateForm3()" {% endblock validation %}
+
+<!-- ============================INPUT ID ================================= -->
+
+<!-- Name -->
+
+{% block id-name %} id="name2"  {% endblock id-name %}
+{% block id-age %} id="age2" {% endblock id-age %}
+{% block id-email %} id="email2" {% endblock id-email %}
+{% block id-phone %} id="phone2" {% endblock id-phone %}
+{% block id-address %} id="address2" {% endblock id-address %}
+{% block id-experience %} id="experience2" {% endblock id-experience %}
+{% block id-skills %} id="skills2" {% endblock id-skills %}
+{% block id-file %} id="file2" {% endblock id-file %}
